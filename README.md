@@ -7,9 +7,7 @@ author: ‘Øistein Søvik’
 
 # Introduksjon
 
-Kanskje den beste editoren for å begynne skrive oppgaver er nettopp Atom. Noen
-av fordelene er at det er svært enkelt å skreddersy Atom akkuratt slik du vil ha
-det. Den tilbyr og svært god interaksjon med Git og ikke minst Markdown. Om dette virker noe skremmende Atom er heldigvis overraskende enkelt å bruke!
+Kanskje den beste editoren å begynne og skrive oppgaver med er nettopp Atom. Fordelene strekker seg fra å være svært enkelt å skreddersy, til å tilby sømmløs interaksjon med Git og ikke minst Markdown. Men kanskje enda bedre er Atom relativt enkelt å komme igang med, så hva venter du på? La oss sette igang!
 
 ![Bilde av atom i bruk](atom-faktisk-jobbing.png)
 
@@ -17,7 +15,7 @@ det. Den tilbyr og svært god interaksjon med Git og ikke minst Markdown. Om det
 
 ### Windows
 
-Naviger deg seg til [Atom's hjemmeside](https://atom.io/) her vil du med en gang få opp en lenke du kan trykke på for å laste ned programmet.
+Naviger deg seg til [Atom's hjemmeside](https://atom.io/). Her vil du få opp en lenke du kan trykke på for å laste ned programmet.
 
 ### Linux
 
@@ -44,7 +42,9 @@ Deretter er det bare å kjøre
 enten fra terminalen eller startmenyen.
 
 **Fedora:** Her er installasjonen litt enklere her laster du ned RPM versjonen
-fra [Atom's kodelager på git](https://github.com/atom/atom/releases/tag/v1.28.0). Deretter installerer du den ved å bruke kommandoen
+fra [Atom's kodelager på
+git](https://github.com/atom/atom/releases/tag/v1.28.0) via `wget` som forklart
+tidligere. Deretter installerer du den ved å bruke kommandoen
 
     sudo dnf install ./atom.x86_64.rpm
 
@@ -59,25 +59,33 @@ Når du først åpner Atom for første gang vild et se ut noe som det her
 
 ![Bilde av startskjermen til Atom](atom-intro.png)
 
-Her har du to faner med en rekke nyttige knapper til høyre. Det går helt fint å bruke Atom uten å måtte lære seg noen rare hurtigtaster. Likevell er det en hurtigtast jeg anbefaler deg på det sterkste å bli kjent med og det er følgende
+Her har du to faner med en rekke nyttige knapper til høyre. Det går helt fint å
+bruke Atom uten å måtte lære seg noen rare hurtigtaster. Likevell er det en
+hurtigtast jeg anbefaler deg på det sterkste å bli kjent med og det er følgende
 
     ctrl - shift - p
 
-Denne hurtigstasten åpnet opp `Atom's Palette` og i denne menyen kan du søke etter bokstavlig alt som finnes i Atom. Dersom du lurer på hvordan noe gjøres i Atom bør føste steget alltid være å søke i denne menyen.
+Denne hurtigstasten åpnet opp `Atom's Palette` og i denne menyen kan du søke
+etter bokstavlig alt som finnes i Atom. Dersom du lurer på hvordan noe gjøres i
+Atom bør føste steget alltid være å søke i denne menyen.
 
 ![](atom-quick-menu.png)
 
 ## Installasjon av pakker
 
-Det første vi trenger er å installere _git_ pakken og en enkel _terminal_. Ved å trykke på "Install a package" i bildet ovenfor åpnef følgende meny seg:
+Det første vi trenger er å installere _git_ pakken og en enkel _terminal_. Ved å
+trykke på "Install a package" i bildet ovenfor åpnef følgende meny seg:
 
 ![](atom-package.png)
 
-Ved å trykke på "Open installer" kan vi installere de pakkene som trengs. Alternativt kunne vi og ha brukt hurtigtasten
+Ved å trykke på "Open installer" kan vi installere de pakkene som trengs.
+Alternativt kunne vi og ha brukt hurtigtasten
 
     ctrl - ,
 
-for å navigere oss direkte til innstillinger. Alternativt kan en og åpne Atoms hurtigsøk via `ctrl - shift - p` og deretter søke etter `packages`. Pakkene vi trenger er følgende:
+for å navigere oss direkte til innstillinger. Alternativt kan en og åpne Atoms
+hurtigsøk via `ctrl - shift - p` og deretter søke etter `packages`. Pakkene vi
+trenger er følgende:
 
 ![](atom-git-plus.png)
 
@@ -103,7 +111,7 @@ Hvor du bytter ut BRUKERNAVN med brukernavnet ditt på GitHub. Du kan selvsagt f
 
 ![](atom-clone-terminal.png)
 
-Som vi husker vi kunne åpne ved å trykke på `+` symbolet i nedre venstre hjørnet eller `ctrl - ``. Merk at om du ønsker å endre hvilken mappet prosjektet klones til må du først navigere deg til riktig mappe med å bruke `cd MAPPEPLASSERING`.
+Som vi husker vi kunne åpne ved å trykke på `+` symbolet i nedre venstre hjørnet eller ``ctrl - ` ``. Merk at om du ønsker å endre hvilken mappet prosjektet klones til må du først navigere deg til riktig mappe med å bruke `cd MAPPEPLASSERING`.
 
 Obs! Det kan være du får noen feilmeldinger enten at du ikke har riktige rettigheter eller at du ikke har valgt git brukernavn og epost. For å løse disse problemene henviser jeg igjen til Introduksjonen til git.
 
@@ -112,15 +120,7 @@ Nå som vi har klart å laste ned kodeklubbens oppgavesammling kan vi åpne mapp
 ![](atom-faktisk-jobbing.png)
 
 Her er et bilde av at jeg har funnet frem en fil jeg ønsker å jobbe med i Prosjektet.
-En veldig grei hurtigtast er
-
-    ctrl - t
-
-Denne gjør at vi kan søke igjennom prosjektet vårt etter relevante filer, i stedet for å navigere oss igjennom mappehirarkiet til høyre. Nå som jeg har åpnet filen min så kan jeg vise hvordan Markdown filen min ser ut i sanntid ved å bruke
-
-    ctrl - shift - m
-
-Da får jeg opp fanen til høyre på bildet ovenfor. Før jeg gjør noen endringer burde jeg bytte til en ny `branch` eller gren, slik at prosjektet blir mer oversiktlig. Igjen så kan dette gjøres enkelt fra hurtigmenyen
+Før jeg gjør noen endringer burde jeg bytte til en ny `branch` eller gren, slik at prosjektet blir mer oversiktlig. Igjen så kan dette gjøres enkelt fra hurtigmenyen
 
 ![](atom-branch-git.png)
 
@@ -130,7 +130,7 @@ eller ved å åpne terminalen med `ctrl `` å skrive
 
 Hvilken gren jeg er på kan en alltid se ned i høyre hjørnet i Atom. Når en er ferdig med å jobbe er det på tide å lagre arbeidet sitt, samt å laste det opp til sin egen gren. Her liker jeg godt å bruke github fanen som kan åpnes via
 
-ctrl - shift - 9
+    ctrl - shift - 9
 
 I hurtigmenyen kan denne finnes ved å for eksempel søke etter "gtihub tab". Igjen så kan en og utelukkende bruke terminalen, men det blir en smakssak.
 
@@ -144,9 +144,23 @@ Heldigvis har Atom en pakke kalt `autoflow`. Det eneste formålet til denne
 pakken er å bryte lange linjer, og den er installert som standard, flaks! For å
 formatere en lang paragraf er det nok å være inne i paragrafen og bruke
 
-  ctrl - shift - q
+    ctrl - shift - q
 
 ![](atom-long-line-fixed.png)
+
+En veldig grei hurtigtast er
+
+    ctrl - t
+
+Denne gjør at vi kan søke igjennom prosjektet vårt etter relevante filer, i stedet for å navigere oss igjennom mappehirarkiet til høyre.
+
+![](atom-quick-search.png)
+
+En annen hurtigtast jeg bruker hele tiden er for å se hvordan Markdown filen min ser ut i sanntid:
+
+    ctrl - shift - m
+
+Da får jeg opp fanen til høyre på bildet ovenfor.
 
 ### Utseende
 
