@@ -36,6 +36,7 @@ fra aktuell læreplan og merk med fag og trinn. Det er veldig mange kompetansem�
 som kan passe til nesten alle oppgaver, så her er det viktig å være så spesifikk
 som mulig. Unngå de mest generelle målene.
 
+
 # Læringsmål*
 
 I denne delen brytes kompetansemålene ned til læringsmål. Start alltid med
@@ -52,7 +53,7 @@ på sine egne læringsmål.
 * **Utstyr:** Dersom det trengs noe spesielt utstyr informeres det om her.
 
 Her er det lurt å tenke på:
-* Hvilket utstyr er nødvendig? 
+* Hvilket utstyr er nødvendig?
 * Er det noen spesielle forutsetninger å ta hensyn til?
 * Er det noe læreren må sette seg spesielt godt inn i?
 * Hva læreren må ha tenkt på i forkant
@@ -78,5 +79,3 @@ som du finner i kodemalen.
 
 * Instruksjonsvideoer
 * Nettsider med interessant/relevant informasjon
-
-

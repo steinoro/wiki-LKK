@@ -19,8 +19,7 @@ Hurtiginstallasjon
 
 Det finnes noen teksteditorer som du bruker i månedvis, og det finnes andre som
 du varer livet ut. Spacemacs havnet lett i den siste kategorien. I mange tiår
-har det herjet en krig mellom de to kraftigste teksteditorene på unix
-platformen: *emacs* og *vim*.
+har det herjet en krig mellom de to kraftigste teksteditorene på unix-plattformen: *emacs* og *vim*.
 
 * *Emacs:* har blitt applaudert for et fantastisk rammeverk, og ofte blitt
   spøkfullt omtalt som et kraftig operativsystem med en svak tekstbehandler. Med
